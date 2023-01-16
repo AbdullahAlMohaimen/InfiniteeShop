@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px !important;
+	font-weight: 400;
+	color: #343a40 !important;
+
+}
+h1{
+	font-size: 36px;
+	color: #343a40 ;
+	font-weight: bold;
+}
+h3{
+	font-size: 24px;
+	color: #343a40 ;
+	font-weight: bold;
+}
+#team img{
+	margin-top: -100px;
+}
+#team i{
+	color: #E96453;
+}
+#team p{
+	font-weight: 500;
+}
+#team .card{
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+}
+
+#team .card:hover{
+	background: #E96453;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 5px 5px 10px #1E9600;
+}
+#team .card:hover h2,#team .card:hover i{
+	color: #fff;
+}
+#team a.bg-org {
+	color: #E96453 !important;
+}
